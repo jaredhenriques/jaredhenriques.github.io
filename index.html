@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jared Henriques</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Jared Henriques</h1>
+	<p>Hey, I’m Jared.</p>
+	<p>I enjoy solving problems with others.</p>
+	<section>
+		<h2>Projects</h2>
+		<a href="https://renga.co" target="_blank">Renga</a>
+	</section>
+	<section>
+		<h2>Newsletter</h2>
+		<div id="mc_embed_signup">
+		<form action="https://jaredhenriques.us11.list-manage.com/subscribe/post-json?u=6e71206ee3c6cd2e4eab89f36&id=f2ba4685c1&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		
+			<div class="input-field-group">
+				<label for="mce-EMAIL" class="visuallyhidden">Email Address</label>
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Address">
+				<input type="submit" value="" name="subscribe" id="mc-embedded-subscribe">
+			</div>   
+		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6e71206ee3c6cd2e4eab89f36_f2ba4685c1" tabindex="-1" value=""></div>
+		<span id="flash" class="flash"></span>    
+		</form>
+		</div>
+	</section>
+	<section>
+		<h2>Contact</h2>
+		<ul>
+			<li><a href="mailto:hey@jared.is" target="_blank">Email</a></li>
+			<li><a href="https://www.linkedin.com/in/jaredhenriques/" target="_blank">LinkedIn</a></li>
+			<li><a href="https://twitter.com/jaredhenriques" target="_blank">Twitter</a></li>
+		</ul>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready( function () {
+		    // I only have one form on the page but you can be more specific if need be.
+		    var $form = $('form');
+
+		    if ( $form.length > 0 ) {
+		        $('form input[type="submit"]').bind('click', function ( event ) {
+		            if ( event ) event.preventDefault();
+		            // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
+		           register($form);
+		        });
+		    }
+		});
+
+		function register($form) {
+		    $.ajax({
+		        type: $form.attr('method'),
+		        url: $form.attr('action'),
+		        data: $form.serialize(),
+		        cache       : false,
+		        dataType    : 'json',
+		        contentType: "application/json; charset=utf-8",
+		        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+		        success     : function(data) {
+		        	console.log(data, 'WOOT')
+		            if (data.result != "success") {
+		            	$form[0].reset()
+		            	$('#flash').html(data.msg)
+		                // Something went wrong, do something to notify the user. maybe alert(data.msg);
+		            } else {
+		                $form[0].reset()
+		                $('#flash').html('thanks, you’re neat')
+		            }
+		        }
+		    });
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
