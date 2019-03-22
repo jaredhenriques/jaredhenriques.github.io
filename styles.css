@@ -8,7 +8,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 :root {
 	--dark: #484848;
 	--grey: #757575;
-	--blue: #7D89F2;
+	--blue: #f07e70;
 }
 
 html {
