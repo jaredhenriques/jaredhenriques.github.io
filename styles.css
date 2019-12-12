@@ -132,6 +132,9 @@ input[type="submit"] {
  {
 	display: inline-flex;
 }
+.nav-item {
+	padding-right: 20px;
+}
 
 .input-field-group {
 	display: inline-flex;
