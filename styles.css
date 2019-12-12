@@ -18,13 +18,12 @@ html {
 body {
 	background:#FAFAF8;
 	min-height: 100vh;
-	margin: 100px 20px;
+	max-width: 600px;
+	margin: auto;
 	color: var(--dark);
 	font-family: freight-text-pro,serif;
 	font-weight: 400;
 	font-style: normal;
-	max-width: 600px;
-
 }
 
 h1,
