@@ -18,11 +18,13 @@ html {
 body {
 	background:#FAFAF8;
 	min-height: 100vh;
-	margin: 20px;
+	margin: 100px 20px;
 	color: var(--dark);
 	font-family: freight-text-pro,serif;
 	font-weight: 400;
 	font-style: normal;
+	padding-left: 200px;
+	padding-right: 200px;
 
 }
 
@@ -49,8 +51,6 @@ p {
 	line-height: 4.6rem;
 	margin-bottom: 30px;
 	display: block;
-	padding-left: 200px;
-	padding-right: 200px;
 }
 
 a {
