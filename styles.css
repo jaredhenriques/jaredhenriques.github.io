@@ -48,15 +48,15 @@ p {
 	margin: 0;
 	line-height: 4.6rem;
 	margin-bottom: 30px;
-	display: inline-block;
+	display: block;
 	padding-left: 200px;
 	padding-right: 200px;
 }
 
 a {
 	color: var(--dark);
-	text-decoration: underline;
-	border-bottom: 2px solid var(--accent);
+	text-decoration: none;
+	border-bottom: 4px solid var(--accent);
 	transition: 0.3s all ease;
 }
 
