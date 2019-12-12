@@ -18,7 +18,7 @@ html {
 body {
 	background:#FAFAF8;
 	min-height: 100vh;
-	padding: 90px 60px;
+	padding: 300px 60px;
 	color: var(--dark);
 	font-family: freight-text-pro,serif;
 	font-weight: 400;
