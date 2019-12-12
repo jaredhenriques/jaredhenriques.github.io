@@ -98,6 +98,13 @@ li:last-of-type {
   width: 1px;
 }
 
+input {
+    font-family: inherit;
+    font-size: 3.8em;
+    margin-bottom: 30px;
+    margin-top: -50px;
+	}
+
 input:not([type=submit]) {
 	background:transparent;
 	border: none;
@@ -112,7 +119,6 @@ input:not([type=submit]) {
 }
 
 input[type="submit"] {
-	background-image:url(arrow.svg);
 	background-repeat: no-repeat;
 	border:none;
 	background-color:transparent;
