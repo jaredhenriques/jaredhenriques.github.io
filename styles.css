@@ -46,9 +46,9 @@ h2 {
 }
 
 p {
-	font-size: 3.8rem;
+	font-size: 3rem;
 	margin: 0;
-	line-height: 4.2rem;
+	line-height: 3.3rem;
 	margin-bottom: 40px;
 	display: block;
 }
@@ -76,9 +76,9 @@ ul {
 }
 
 li {
-	font-size: 3.8rem;
+	font-size: 3rem;
 	margin: 0;
-	line-height: 4.2rem;
+	line-height: 3.3rem;
 	margin-bottom: 10px;
 	display: block;
 }
@@ -100,7 +100,7 @@ li:last-of-type {
 
 input {
     font-family: inherit;
-    font-size: 3.8em;
+    font-size: 3rem;
     margin-bottom: 30px;
     margin-top: -50px;
 	}
@@ -111,9 +111,9 @@ input:not([type=submit]) {
 	border-bottom: 3px solid var(--accent);
 	width: 300px;
 	border-radius: 0;
-	font-size: 3.8rem;
+	font-size: 3rem;
 	margin: 0;
-	line-height: 4.2rem;
+	line-height: 3.3rem;
 	margin-bottom: 40px;
 	display: inline-flex;
 }
