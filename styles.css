@@ -6,7 +6,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root {
-	--dark: ##2C3245;
+	--dark: #2C3245;
 	--grey: #757575;
 	--accent: #f07e70;
 }
@@ -53,12 +53,12 @@ p {
 a {
 	color: var(--dark);
 	text-decoration: underline;
-	border-bottom: 2px solid var(--blue);
+	border-bottom: 2px solid var(--accent);
 	transition: 0.3s all ease;
 }
 
 a:hover {
-	color: var(--blue);
+	color: var(--accent);
 }
 
 section {
@@ -94,7 +94,7 @@ li:last-of-type {
 input:not([type=submit]) {
 	background:transparent;
 	border: none;
-	border-bottom: 1px solid var(--blue);
+	border-bottom: 1px solid var(--accent);
 	width: 195px;
 	border-radius: 0;
 }
