@@ -115,7 +115,8 @@ input[type="submit"] {
 }
 
 .input-field-group {
-	display: flex;
+	display: block;
+	padding-bottom: 30px;
 }
 
 
@@ -133,8 +134,9 @@ input[type="submit"] {
 }
 
 .flash {
-	font-size: 1.4rem;
+	font-size: 3.8rem;
 	max-width: 320px;
 	display: inline-block;
 	margin-top: 8px;
+	margin-bottom: 30px;
 }
