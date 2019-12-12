@@ -119,6 +119,7 @@ input:not([type=submit]) {
 }
 
 input[type="submit"] {
+	background-image:url(arrow.svg);
 	background-repeat: no-repeat;
 	border:none;
 	background-color:transparent;
