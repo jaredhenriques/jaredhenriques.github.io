@@ -115,7 +115,7 @@ input:not([type=submit]) {
 	margin: 0;
 	line-height: 4.2rem;
 	margin-bottom: 40px;
-	display: flex;
+	display: inline-flex;
 }
 
 input[type="submit"] {
@@ -123,10 +123,11 @@ input[type="submit"] {
 	border:none;
 	background-color:transparent;
 	background-position: center;
+	color: var(--accent)
 }
 
 .input-field-group {
-	display: flex;
+	display: inline-flex;
 	padding-bottom: 30px;
 }
 
