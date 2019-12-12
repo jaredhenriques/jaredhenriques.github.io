@@ -6,9 +6,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root {
-	--dark: #484848;
+	--dark: ##2C3245;
 	--grey: #757575;
-	--blue: #f07e70;
+	--accent: #f07e70;
 }
 
 html {
@@ -16,12 +16,15 @@ html {
 }
 
 body {
-	background:#ffffff;
+	background:#FAFAF8;
 	min-height: 100vh;
 	padding: 90px 60px;
-	color: var(--grey);
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.8rem;
+	color: var(--dark);
+	font-family: FreightText Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
 
 }
 
@@ -43,6 +46,7 @@ h2 {
 }
 
 p {
+	font-size: 2.2rem;
 	margin: 0;
 	line-height: 2.2rem;
 }
@@ -50,7 +54,7 @@ p {
 a {
 	color: var(--dark);
 	text-decoration: none;
-	border-bottom: 1px solid var(--blue);
+	border-bottom: 2px solid var(--blue);
 	transition: 0.3s all ease;
 }
 
