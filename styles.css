@@ -24,7 +24,7 @@ body {
 	font-family: freight-text-pro,serif;
 	font-weight: 400;
 	font-style: normal;
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 100px;
 }
 
@@ -126,6 +126,9 @@ input[type="submit"] {
 	background-position: center;
 	color: var(--dark);
 	font-size: 3.8rem;
+}
+header {
+	display: inline-flex;
 }
 
 .input-field-group {
