@@ -102,8 +102,13 @@ input:not([type=submit]) {
 	background:transparent;
 	border: none;
 	border-bottom: 3px solid var(--accent);
-	width: 195px;
+	width: 300px;
 	border-radius: 0;
+	font-size: 3.8rem;
+	margin: 0;
+	line-height: 4.2rem;
+	margin-bottom: 40px;
+	display: block;
 }
 
 input[type="submit"] {
